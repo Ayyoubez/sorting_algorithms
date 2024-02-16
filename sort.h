@@ -1,5 +1,6 @@
 #ifndef SORT_H
 #define SORT_H
+
 #include<stdlib.h>
 
 /**
@@ -26,4 +27,5 @@ listint_t *move_node(listint_t *node, listint_t **list);
 void move(int *list, ssize_t value1, ssize_t value2);
 int Lomuto(int *list, ssize_t fst, ssize_t lst, ssize_t size);
 void quick_s(int *list, ssize_t fst, ssize_t lst, int size);
+
 #endif
