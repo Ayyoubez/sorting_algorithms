@@ -45,4 +45,3 @@ listint_t *move_node(listint_t *node, listint_t **list)
 
 	return (current);
 }
-
