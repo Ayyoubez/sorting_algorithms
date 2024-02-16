@@ -1,13 +1,12 @@
 #include "sort.h"
-
 /**
  * bubble_sort - sort an array elements
  * @array: array
  * @size: size of the array
  */
-
 void bubble_sort(int *array, size_t size)
 {
+
 	size_t i, idx, temp = 0;
 
 	if (size < 2)
