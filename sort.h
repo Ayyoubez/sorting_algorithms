@@ -29,4 +29,5 @@ int Lomuto(int *list, ssize_t fst, ssize_t lst, ssize_t size);
 void quick_s(int *list, ssize_t fst, ssize_t lst, int size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
+void counting_sort(int *array, size_t size);
 #endif
